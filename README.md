@@ -1,0 +1,1 @@
+# gradle-dependency-version-catalog
