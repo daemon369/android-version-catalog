@@ -10,6 +10,8 @@ dependencyResolutionManagement {
 
             alias("core").to("androidx.core:core:1.6.0")
             alias("core.ktx").to("androidx.core", "core-ktx").versionRef("core")
+
+            bundle("core.ktx", listOf("core", "core.ktx"))
         }
     }
 }
