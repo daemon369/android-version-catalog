@@ -5,4 +5,4 @@ kotlin = "1.5.31"
 
 [bundles]
 
-[plugin]
+[plugins]
