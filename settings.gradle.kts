@@ -6,7 +6,7 @@ enableFeaturePreview("VERSION_CATALOGS")
 
 dependencyResolutionManagement {
     versionCatalogs {
-        create("kotlin") {
+        create("kt") {
             from(files("gradle/kotlin.versions.toml"))
         }
     }
