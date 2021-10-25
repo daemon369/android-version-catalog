@@ -4,6 +4,12 @@ plugins {
     signing
 }
 
+catalog {
+    versionCatalog {
+        version("kotlin", "1.5.31")
+    }
+}
+
 afterEvaluate {
     publishing {
         publications {
