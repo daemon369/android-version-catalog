@@ -20,20 +20,20 @@ tasks.create<Delete>("clean") {
     delete(rootProject.buildDir)
 }
 
-extra["ossrhUsername"] = ""
-extra["ossrhPassword"] = ""
-extra["sonatypeStagingProfileId"] = ""
-extra["signing.keyId"] = ""
-extra["signing.password"] = ""
-extra["signing.secretKeyRingFile"] = ""
+ext["ossrhUsername"] = ""
+ext["ossrhPassword"] = ""
+ext["sonatypeStagingProfileId"] = ""
+ext["signing.keyId"] = ""
+ext["signing.password"] = ""
+ext["signing.secretKeyRingFile"] = ""
 
-val secretPropsFile = project.rootProject.file("local.properties")
+val secretPropsFile = file("local.properties")
 if (secretPropsFile.exists()) {
     val p: java.util.Properties = java.util.Properties()
     val i = java.io.FileInputStream(secretPropsFile)
     p.load(i)
     p.forEach { name, value ->
         println("[$name]->[$value]")
-        extra[name.toString()] = value
+        ext[name.toString()] = value
     }
 }
