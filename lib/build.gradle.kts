@@ -40,8 +40,31 @@ afterEvaluate {
                 artifactId = "android-version-catalog"
                 version = "0.0.1"
 
-
                 from(components["versionCatalog"])
+
+                pom {
+                    name.set("android-version-catalog")
+                    description.set("Android gradle version catalog")
+                    url.set("https://github.com/daemon369/gradle-dependency-version-catalog")
+                    licenses {
+                        license {
+                            name.set("The Apache Software License, Version 2.0")
+                            url.set("http://www.apache.org/licenses/LICENSE-2.0.txt")
+                        }
+                    }
+                    developers {
+                        developer {
+                            id.set("daemon")
+                            name.set("Daemon")
+                            email.set("daemon336699@gmail.com")
+                        }
+                    }
+                    scm {
+                        connection.set("scm:git:git://github.com/daemon369/gradle-dependency-version-catalog.git")
+                        developerConnection.set("scm:git:ssh://github.com/daemon369/gradle-dependency-version-catalog.git")
+                        url.set("https://github.com/daemon369/gradle-dependency-version-catalog/tree/main")
+                    }
+                }
             }
         }
     }
