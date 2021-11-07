@@ -24,6 +24,7 @@
 | x-lifecycle-viewmodel                 | androidx.lifecycle:lifecycle-viewmodel                    | 2.4.0     | 0.0.2 |  |
 | x-activity                            | androidx.activity:activity                                | 1.4.0     | 0.0.2 |  |
 | x-fragment                            | androidx.fragment:fragment                                | 1.3.6     | 0.0.2 |  |
+| x-constraintlayout                    | androidx.constraintlayout:constraintlayout                | 2.1.1     | 0.0.2 |  |
 | daemon-annotation                     | io.github.daemon369:annotation                            | 0.1.0     | 0.0.2 | 注解库 |
 | daemon-infrastructure-application     | io.github.daemon369:android-infrastructure-application    | 0.1.1     | 0.0.2 | 基础库，提供Application全局实例 |
 | daemon-infrastructure-infrastructure  | io.github.daemon369:android-infrastructure                | 0.3.0     | 0.0.2 | 基础库，提供基础工具 |
