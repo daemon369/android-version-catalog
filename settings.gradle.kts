@@ -10,8 +10,8 @@ dependencyResolutionManagement {
         maven { url = uri("https://s01.oss.sonatype.org/content/repositories/releases/") }
     }
     versionCatalogs {
-        create("kt") {
-            from(files("gradle/kotlin.versions.toml"))
+        create("libs") {
+            from("io.github.daemon369:android-version-catalog:0.0.1")
         }
     }
 }
