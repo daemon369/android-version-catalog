@@ -9,6 +9,7 @@ catalog {
         version("kotlin-std", "1.5.31")
         version("kotlin-coroutines", "1.5.1")
 
+        // kotlin
         alias("kotlin-std")
             .to("org.jetbrains.kotlin", "kotlin-stdlib")
             .versionRef("kotlin-std")
@@ -18,6 +19,16 @@ catalog {
         alias("kotlin-coroutines")
             .to("org.jetbrains.kotlinx", "kotlinx-coroutines-android")
             .versionRef("kotlin-coroutines")
+
+        // androidX
+        alias("x-annotation")
+            .to("androidx.annotation:annotation:1.3.0")
+
+        // daemon libraries
+        alias("daemon-annotation")
+            .to("io.github.daemon369:annotation:0.1.0")
+        alias("daemon-infrastructure-application")
+            .to("io.github.daemon369:android-infrastructure-application:0.1.1")
     }
 }
 
