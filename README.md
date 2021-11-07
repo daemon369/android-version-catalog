@@ -18,6 +18,8 @@
 | x-annotation | androidx.annotation:annotation | 1.3.0 | 0.0.2 | AndroidX注解库 |
 | daemon-annotation | io.github.daemon369:annotation | 0.1.0 | 0.0.2 | 注解库 |
 | daemon-infrastructure-application | io.github.daemon369:android-infrastructure-application | 0.1.1 | 0.0.2 | 基础库，提供Application全局实例 |
+| daemon-infrastructure-infrastructure | io.github.daemon369:android-infrastructure | 0.3.0 | 0.0.2 | 基础库，提供基础工具 |
+| daemon-view | io.github.daemon369:android-view-common | 0.3.0 | 0.0.2 | 基础UI库 |
 | | | | | |
 
 ## 插件
