@@ -8,6 +8,7 @@ catalog {
     versionCatalog {
         version("kotlin-std", "1.5.31")
         version("kotlin-coroutines", "1.5.1")
+        version("x-lifecycle", "1.5.1")
 
         // kotlin
         alias("kotlin-std")
@@ -23,6 +24,24 @@ catalog {
         // androidX
         alias("x-annotation")
             .to("androidx.annotation:annotation:1.3.0")
+        alias("x-core-core")
+            .to("androidx.core:core:1.7.0")
+        alias("x-core-ktx")
+            .to("androidx.core:core-ktx:1.7.0")
+        alias("x-appcompat")
+            .to("androidx.appcompat:appcompat:1.3.1")
+        alias("x-lifecycle-common")
+            .to("androidx.lifecycle:lifecycle-common:2.4.0")
+        alias("x-lifecycle-livedata")
+            .to("androidx.lifecycle:lifecycle-livedata:2.4.0")
+        alias("x-lifecycle-viewmodel")
+            .to("androidx.lifecycle:lifecycle-viewmodel:2.4.0")
+        alias("x-activity")
+            .to("androidx.activity:activity:1.4.0")
+        alias("x-fragment")
+            .to("androidx.fragment:fragment:1.3.6")
+        alias("x-constraintlayout")
+            .to("androidx.constraintlayout:constraintlayout:2.1.1")
 
         // daemon libraries
         alias("daemon-annotation")
@@ -53,7 +72,7 @@ afterEvaluate {
             create<MavenPublication>("maven") {
                 groupId = "io.github.daemon369"
                 artifactId = "android-version-catalog"
-                version = "0.0.1"
+                version = "0.0.2"
 
                 from(components["versionCatalog"])
 
