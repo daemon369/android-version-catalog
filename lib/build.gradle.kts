@@ -8,7 +8,11 @@ catalog {
     versionCatalog {
         version("kotlin-std", "1.5.31")
         version("kotlin-coroutines", "1.5.1")
-        version("x-lifecycle", "1.5.1")
+        version("x-lifecycle", "2.4.0")
+
+        // gradle
+        alias("gradle")
+            .to("com.android.tools.build:gradle:7.0.2")
 
         // kotlin
         alias("kotlin-std")
@@ -31,11 +35,14 @@ catalog {
         alias("x-appcompat")
             .to("androidx.appcompat:appcompat:1.3.1")
         alias("x-lifecycle-common")
-            .to("androidx.lifecycle:lifecycle-common:2.4.0")
+            .to("androidx.lifecycle", "lifecycle-common")
+            .versionRef("x-lifecycle")
         alias("x-lifecycle-livedata")
-            .to("androidx.lifecycle:lifecycle-livedata:2.4.0")
+            .to("androidx.lifecycle", "lifecycle-livedata")
+            .versionRef("x-lifecycle")
         alias("x-lifecycle-viewmodel")
-            .to("androidx.lifecycle:lifecycle-viewmodel:2.4.0")
+            .to("androidx.lifecycle", "lifecycle-viewmodel")
+            .versionRef("x-lifecycle")
         alias("x-activity")
             .to("androidx.activity:activity:1.4.0")
         alias("x-fragment")
