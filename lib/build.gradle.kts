@@ -53,6 +53,15 @@ catalog {
         alias("x-constraintlayout")
             .to("androidx.constraintlayout:constraintlayout:2.1.1")
 
+        alias("x-junit")
+            .to("androidx.test.ext:junit:1.1.2")
+        alias("x-espresso-core")
+            .to("androidx.test.espresso:espresso-core:3.3.0")
+
+        // test
+        alias("junit")
+            .to("junit:junit:4.13.2")
+
         // daemon libraries
         alias("daemon-annotation")
             .to("io.github.daemon369:annotation:0.1.0")
