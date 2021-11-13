@@ -38,7 +38,7 @@ dependencies {
     implementation(libs.kotlin.std)
     implementation(libs.x.appcompat)
     implementation(libs.x.constraintlayout)
-    testImplementation("junit:junit:4.13.2")
-    androidTestImplementation("androidx.test.ext:junit:1.1.2")
-    androidTestImplementation("androidx.test.espresso:espresso-core:3.3.0")
+    testImplementation(libs.junit)
+    androidTestImplementation(libs.x.junit)
+    androidTestImplementation(libs.x.espresso.core)
 }
