@@ -5,7 +5,7 @@
 | 版本号名称          | 当前版本号  | 发布版本 | 说明 |
 | --- | --- | --- | --- |
 | kotlin-std        | 1.5.31    | 0.0.1 | kotlin版本号 |
-| kotlin-coroutines | 1.5.1     | 0.0.1 | kotlin协程版本号 |
+| kotlin-coroutines | 1.5.2     | 0.0.4 | kotlin协程版本号 |
 | x-lifecycle       | 2.4.0     | 0.0.3 | androidX lifecycle版本号 |
 | | | | |
 
