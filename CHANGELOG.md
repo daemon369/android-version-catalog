@@ -1,5 +1,22 @@
 # Changelog
 
+## [0.0.4] - 2021-11-13
+
+### Added
+
+- 增加`kotlin-coroutines-core`、`kotlin-coroutines-android`
+- 增加`junit`
+- 增加`x-junit`
+- 增加`x-espresso-core`
+
+### Changed
+
+- 升级版本号`kotlin-coroutines`为`1.5.2`
+
+### Removed
+
+- 移除`kotlin-coroutines`
+
 ## [0.0.3] - 2021-11-10
 
 ### Added

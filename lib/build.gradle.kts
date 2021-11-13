@@ -91,7 +91,7 @@ afterEvaluate {
             create<MavenPublication>("maven") {
                 groupId = "io.github.daemon369"
                 artifactId = "android-version-catalog"
-                version = "0.0.3"
+                version = "0.0.4"
 
                 from(components["versionCatalog"])
 
