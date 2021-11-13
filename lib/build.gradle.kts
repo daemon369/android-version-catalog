@@ -7,7 +7,7 @@ plugins {
 catalog {
     versionCatalog {
         version("kotlin-std", "1.5.31")
-        version("kotlin-coroutines", "1.5.1")
+        version("kotlin-coroutines", "1.5.2")
         version("x-lifecycle", "2.4.0")
 
         // gradle
@@ -21,7 +21,10 @@ catalog {
         alias("kotlin-plugin")
             .to("org.jetbrains.kotlin", "kotlin-gradle-plugin")
             .versionRef("kotlin-std")
-        alias("kotlin-coroutines")
+        alias("kotlin-coroutines-core")
+            .to("org.jetbrains.kotlinx", "kotlinx-coroutines-core-jvm")
+            .versionRef("kotlin-coroutines")
+        alias("kotlin-coroutines-android")
             .to("org.jetbrains.kotlinx", "kotlinx-coroutines-android")
             .versionRef("kotlin-coroutines")
 
