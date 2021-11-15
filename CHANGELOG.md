@@ -1,5 +1,16 @@
 # Changelog
 
+## [0.0.5] - 2021-11-16
+
+### Changed
+
+Gradle从7.0.2升级到7.3，version catalog得到了改进，修复了一些问题，因此对版本号和库的名称进行简化：
+
+- 版本号`kotlin-std`改为`kotlin`
+- 库`kotlin-std`改为`kotlin`
+- 库`x-core-core`改为`x-core`
+- 库`daemon-infrastructure-infrastructure`改为`daemon-infrastructure`
+
 ## [0.0.4] - 2021-11-13
 
 ### Added
