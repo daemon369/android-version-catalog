@@ -6,7 +6,7 @@ plugins {
 
 catalog {
     versionCatalog {
-        version("kotlin-std", "1.5.31")
+        version("kotlin", "1.5.31")
         version("kotlin-coroutines", "1.5.2")
         version("x-lifecycle", "2.4.0")
 
@@ -15,12 +15,12 @@ catalog {
             .to("com.android.tools.build:gradle:7.0.2")
 
         // kotlin
-        alias("kotlin-std")
+        alias("kotlin")
             .to("org.jetbrains.kotlin", "kotlin-stdlib")
-            .versionRef("kotlin-std")
+            .versionRef("kotlin")
         alias("kotlin-plugin")
             .to("org.jetbrains.kotlin", "kotlin-gradle-plugin")
-            .versionRef("kotlin-std")
+            .versionRef("kotlin")
         alias("kotlin-coroutines-core")
             .to("org.jetbrains.kotlinx", "kotlinx-coroutines-core-jvm")
             .versionRef("kotlin-coroutines")
@@ -31,7 +31,7 @@ catalog {
         // androidX
         alias("x-annotation")
             .to("androidx.annotation:annotation:1.3.0")
-        alias("x-core-core")
+        alias("x-core")
             .to("androidx.core:core:1.7.0")
         alias("x-core-ktx")
             .to("androidx.core:core-ktx:1.7.0")

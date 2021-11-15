@@ -35,10 +35,11 @@ android {
 }
 
 dependencies {
-    implementation(libs.kotlin.std)
-    implementation(libs.x.appcompat)
-    implementation(libs.x.constraintlayout)
-    testImplementation(libs.junit)
-    androidTestImplementation(libs.x.junit)
-    androidTestImplementation(libs.x.espresso.core)
+    implementation("org.jetbrains.kotlin:kotlin-stdlib:1.5.31")
+//    implementation(libs.kotlin)
+//    implementation(libs.x.appcompat)
+//    implementation(libs.x.constraintlayout)
+//    testImplementation(libs.junit)
+//    androidTestImplementation(libs.x.junit)
+//    androidTestImplementation(libs.x.espresso.core)
 }
