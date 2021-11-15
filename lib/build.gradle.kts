@@ -67,7 +67,7 @@ catalog {
             .to("io.github.daemon369:annotation:0.1.0")
         alias("daemon-infrastructure-application")
             .to("io.github.daemon369:android-infrastructure-application:0.1.1")
-        alias("daemon-infrastructure-infrastructure")
+        alias("daemon-infrastructure")
             .to("io.github.daemon369:android-infrastructure:0.3.0")
         alias("daemon-view")
             .to("io.github.daemon369:android-view-common:0.3.0")
