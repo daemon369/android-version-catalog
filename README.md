@@ -1,5 +1,16 @@
 # gradle-dependency-version-catalog
 
+## 使用要求
+
+`0.0.1`-`0.0.4`要求使用`gradle7.0`以上版本并开启特性预览：
+
+```
+// settings.gradle(.kts)
+enableFeaturePreview("VERSION_CATALOGS")
+```
+
+`0.0.5`以上要求使用`gradle7.2`以上版本并同样开启特性预览
+
 ## 版本号
 
 | 版本号名称          | 当前版本号  | 发布版本 | 说明 |
