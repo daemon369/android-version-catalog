@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.0.6] - 2021-11-20
+
+### Changed
+
+- 升级`x-appcompat`到`1.4.0`
+- 升级`x-constraintlayout`到`2.1.2`
+
 ## [0.0.5] - 2021-11-16
 
 ### Changed

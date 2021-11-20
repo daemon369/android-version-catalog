@@ -36,13 +36,13 @@ enableFeaturePreview("VERSION_CATALOGS")
 | ~~x-core-core~~                           | androidx.core:core                                        | 1.7.0     | 0.0.2 |  |
 | x-core                                    | androidx.core:core                                        | 1.7.0     | 0.0.5 |  |
 | x-core-ktx                                | androidx.core:core-ktx                                    | 1.7.0     | 0.0.2 |  |
-| x-appcompat                               | androidx.appcompat:appcompat                              | 1.3.1     | 0.0.2 |  |
+| x-appcompat                               | androidx.appcompat:appcompat                              | 1.4.0     | 0.0.6 |  |
 | x-lifecycle-common                        | androidx.lifecycle:lifecycle-common                       | 2.4.0     | 0.0.2 |  |
 | x-lifecycle-livedata                      | androidx.lifecycle:lifecycle-livedata                     | 2.4.0     | 0.0.2 |  |
 | x-lifecycle-viewmodel                     | androidx.lifecycle:lifecycle-viewmodel                    | 2.4.0     | 0.0.2 |  |
 | x-activity                                | androidx.activity:activity                                | 1.4.0     | 0.0.2 |  |
 | x-fragment                                | androidx.fragment:fragment                                | 1.3.6     | 0.0.2 |  |
-| x-constraintlayout                        | androidx.constraintlayout:constraintlayout                | 2.1.1     | 0.0.2 |  |
+| x-constraintlayout                        | androidx.constraintlayout:constraintlayout                | 2.1.2     | 0.0.6 |  |
 | x-junit                                   | androidx.test.ext:junit                                   | 1.1.2     | 0.0.4 |  |
 | x-espresso-core                           | androidx.test.espresso:espresso-core                      | 3.3.0     | 0.0.4 |  |
 | junit                                     | junit:junit                                               | 4.13.2    | 0.0.4 |  |
