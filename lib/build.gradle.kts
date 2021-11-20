@@ -36,7 +36,7 @@ catalog {
         alias("x-core-ktx")
             .to("androidx.core:core-ktx:1.7.0")
         alias("x-appcompat")
-            .to("androidx.appcompat:appcompat:1.3.1")
+            .to("androidx.appcompat:appcompat:1.4.0")
         alias("x-lifecycle-common")
             .to("androidx.lifecycle", "lifecycle-common")
             .versionRef("x-lifecycle")
@@ -51,7 +51,7 @@ catalog {
         alias("x-fragment")
             .to("androidx.fragment:fragment:1.3.6")
         alias("x-constraintlayout")
-            .to("androidx.constraintlayout:constraintlayout:2.1.1")
+            .to("androidx.constraintlayout:constraintlayout:2.1.2")
 
         alias("x-junit")
             .to("androidx.test.ext:junit:1.1.2")
