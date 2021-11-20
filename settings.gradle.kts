@@ -1,4 +1,4 @@
-rootProject.name = "gradle-dependency-version-catalog"
+rootProject.name = "android-version-catalog"
 include(":demo")
 include(":lib")
 
