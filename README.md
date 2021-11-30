@@ -15,7 +15,6 @@ enableFeaturePreview("VERSION_CATALOGS")
 
 | 版本号名称          | 当前版本号  | 发布版本 | 说明 |
 | --- | --- | --- | --- |
-| ~~kotlin-std~~    | 1.5.31    | 0.0.1 | kotlin版本号 |
 | kotlin            | 1.5.31    | 0.0.5 | kotlin版本号 |
 | kotlin-coroutines | 1.5.2     | 0.0.4 | kotlin协程版本号 |
 | x-lifecycle       | 2.4.0     | 0.0.3 | androidX lifecycle版本号 |
@@ -26,14 +25,11 @@ enableFeaturePreview("VERSION_CATALOGS")
 | 库别名                                     | 具体库                                                     | 库版本号    | 发布版本 | 说明 |
 | ---                                       | ---                                                       | ---       | ---   | --- |
 | gradle                                    | com.android.tools.build:gradle                            | 7.0.2     | 0.0.3 | android gradle插件库 |
-| ~~kotlin-std~~                            | org.jetbrains.kotlin:kotlin-stdlib                        | 1.5.31    | 0.0.1 | kotlin标准库 |
 | kotlin                                    | org.jetbrains.kotlin:kotlin-stdlib                        | 1.5.31    | 0.0.5 | kotlin标准库 |
-| ~~kotlin-coroutines~~                     | org.jetbrains.kotlinx:kotlinx-coroutines-android          | 1.5.2     | 0.0.1 | kotlin协程库 |
 | kotlin-coroutines-core                    | org.jetbrains.kotlinx:kotlinx-coroutines-core-jvm         | 1.5.2     | 0.0.4 | kotlin协程库 |
 | kotlin-coroutines-android                 | org.jetbrains.kotlinx:kotlinx-coroutines-android          | 1.5.2     | 0.0.4 | kotlin协程库 |
 | kotlin-plugin                             | org.jetbrains.kotlin:kotlin-gradle-plugin                 | 1.5.31    | 0.0.1 | kotlin插件库 |
 | x-annotation                              | androidx.annotation:annotation                            | 1.3.0     | 0.0.2 | AndroidX注解库 |
-| ~~x-core-core~~                           | androidx.core:core                                        | 1.7.0     | 0.0.2 |  |
 | x-core                                    | androidx.core:core                                        | 1.7.0     | 0.0.5 |  |
 | x-core-ktx                                | androidx.core:core-ktx                                    | 1.7.0     | 0.0.2 |  |
 | x-appcompat                               | androidx.appcompat:appcompat                              | 1.4.0     | 0.0.6 |  |
@@ -49,7 +45,6 @@ enableFeaturePreview("VERSION_CATALOGS")
 |                                           |                                                           |           |       |  |
 | daemon-annotation                         | io.github.daemon369:annotation                            | 0.1.0     | 0.0.2 | 注解库 |
 | daemon-infrastructure-application         | io.github.daemon369:android-infrastructure-application    | 0.1.1     | 0.0.2 | 基础库，提供Application全局实例 |
-| ~~daemon-infrastructure-infrastructure~~  | io.github.daemon369:android-infrastructure                | 0.3.0     | 0.0.2 | 基础库，提供基础工具 |
 | daemon-infrastructure                     | io.github.daemon369:android-infrastructure                | 0.3.0     | 0.0.5 | 基础库，提供基础工具 |
 | daemon-view                               | io.github.daemon369:android-view-common                   | 0.3.0     | 0.0.2 | 基础UI库 |
 | | | | | |
@@ -65,3 +60,7 @@ enableFeaturePreview("VERSION_CATALOGS")
 | 包名 | 包含的库 | 发布版本 | 说明 |
 | --- | --- | --- | --- |
 | | | | |
+
+# 已废弃的
+
+已废弃的版本号、库、插件、包查看文档[OBSOLETED.md](OBSOLETED.md)
