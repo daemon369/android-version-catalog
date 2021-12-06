@@ -2,20 +2,20 @@
 
 ## 使用要求
 
-`0.0.1`-`0.0.4`要求使用`gradle7.0`以上版本并开启特性预览：
+`0.0.5`以上要求使用`gradle7.2`以上版本并开启特性预览：
 
 ```
 // settings.gradle(.kts)
 enableFeaturePreview("VERSION_CATALOGS")
 ```
 
-`0.0.5`以上要求使用`gradle7.2`以上版本并同样开启特性预览
+`0.0.1`-`0.0.4`要求使用`gradle7.0`以上版本并同样开启特性预览
 
 ## 版本号
 
 | 版本号名称          | 当前版本号  | 发布版本 | 说明 |
 | --- | --- | --- | --- |
-| kotlin            | 1.5.31    | 0.0.5 | kotlin版本号 |
+| kotlin            | 1.5.32    | 0.0.7 | kotlin版本号 |
 | kotlin-coroutines | 1.5.2     | 0.0.4 | kotlin协程版本号 |
 | x-lifecycle       | 2.4.0     | 0.0.3 | androidX lifecycle版本号 |
 | | | | |
