@@ -2,6 +2,10 @@
 
 ## [0.0.8] - 2021-12-24
 
+### Added
+
+- 增加`daemon-logger-api`与`daemon-logger`
+
 ### Changed
 
 - 升级版本号`kotlin`到`1.6.10`
