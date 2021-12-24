@@ -71,6 +71,10 @@ catalog {
             .to("io.github.daemon369:android-infrastructure:0.3.0")
         alias("daemon-view")
             .to("io.github.daemon369:android-view-common:0.3.0")
+        alias("daemon-logger-api")
+            .to("io.github.daemon369:logger-api:0.0.2")
+        alias("daemon-logger")
+            .to("io.github.daemon369:android-logger:0.0.2")
     }
 }
 
