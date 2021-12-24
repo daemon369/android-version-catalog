@@ -6,8 +6,8 @@ plugins {
 
 catalog {
     versionCatalog {
-        version("kotlin", "1.5.32")
-        version("kotlin-coroutines", "1.5.2")
+        version("kotlin", "1.6.10")
+        version("kotlin-coroutines", "1.6.0")
         version("x-lifecycle", "2.4.0")
 
         // gradle
