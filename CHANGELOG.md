@@ -1,5 +1,17 @@
 # Changelog
 
+## [0.0.8] - 2021-12-24
+
+### Changed
+
+- 升级版本号`kotlin`到`1.6.10`
+- 升级版本号`kotlin-coroutines`到`1.6.0`
+- 升级`gradle`到`7.0.4`
+- 升级`kotlin`到`1.6.10`
+- 升级`kotlin-coroutines-core`到`1.6.0`
+- 升级`kotlin-coroutines-android`到`1.6.0`
+- 升级`kotlin-plugin`到`1.6.10`
+
 ## [0.0.7] - 2021-12-06
 
 ### Changed

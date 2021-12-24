@@ -15,8 +15,8 @@ enableFeaturePreview("VERSION_CATALOGS")
 
 | 版本号名称          | 当前版本号  | 发布版本 | 说明 |
 | --- | --- | --- | --- |
-| kotlin            | 1.5.32    | 0.0.7 | kotlin版本号 |
-| kotlin-coroutines | 1.5.2     | 0.0.4 | kotlin协程版本号 |
+| kotlin            | 1.6.10    | 0.0.8 | kotlin版本号 |
+| kotlin-coroutines | 1.6.0     | 0.0.8 | kotlin协程版本号 |
 | x-lifecycle       | 2.4.0     | 0.0.3 | androidX lifecycle版本号 |
 | | | | |
 
@@ -24,11 +24,11 @@ enableFeaturePreview("VERSION_CATALOGS")
 
 | 库别名                                     | 具体库                                                     | 库版本号    | 发布版本 | 说明 |
 | ---                                       | ---                                                       | ---       | ---   | --- |
-| gradle                                    | com.android.tools.build:gradle                            | 7.0.2     | 0.0.3 | android gradle插件库 |
-| kotlin                                    | org.jetbrains.kotlin:kotlin-stdlib                        | 1.5.31    | 0.0.5 | kotlin标准库 |
-| kotlin-coroutines-core                    | org.jetbrains.kotlinx:kotlinx-coroutines-core-jvm         | 1.5.2     | 0.0.4 | kotlin协程库 |
-| kotlin-coroutines-android                 | org.jetbrains.kotlinx:kotlinx-coroutines-android          | 1.5.2     | 0.0.4 | kotlin协程库 |
-| kotlin-plugin                             | org.jetbrains.kotlin:kotlin-gradle-plugin                 | 1.5.31    | 0.0.1 | kotlin插件库 |
+| gradle                                    | com.android.tools.build:gradle                            | 7.0.4     | 0.0.8 | android gradle插件库 |
+| kotlin                                    | org.jetbrains.kotlin:kotlin-stdlib                        | 1.6.10    | 0.0.8 | kotlin标准库 |
+| kotlin-coroutines-core                    | org.jetbrains.kotlinx:kotlinx-coroutines-core-jvm         | 1.6.0     | 0.0.8 | kotlin协程库 |
+| kotlin-coroutines-android                 | org.jetbrains.kotlinx:kotlinx-coroutines-android          | 1.6.0     | 0.0.8 | kotlin协程库 |
+| kotlin-plugin                             | org.jetbrains.kotlin:kotlin-gradle-plugin                 | 1.6.10    | 0.0.8 | kotlin插件库 |
 | x-annotation                              | androidx.annotation:annotation                            | 1.3.0     | 0.0.2 | AndroidX注解库 |
 | x-core                                    | androidx.core:core                                        | 1.7.0     | 0.0.5 |  |
 | x-core-ktx                                | androidx.core:core-ktx                                    | 1.7.0     | 0.0.2 |  |
