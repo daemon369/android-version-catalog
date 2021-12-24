@@ -12,7 +12,7 @@ catalog {
 
         // gradle
         alias("gradle")
-            .to("com.android.tools.build:gradle:7.0.2")
+            .to("com.android.tools.build:gradle:7.0.4")
 
         // kotlin
         alias("kotlin")
