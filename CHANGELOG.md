@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.0.9] - 2021-12-29
+
+### Changed
+
+- 升级`x-fragment`到`1.4.0`
+- 升级`daemon-infrastructure-infrastructure`到`1.1.0`
+
 ## [0.0.8] - 2021-12-24
 
 ### Added

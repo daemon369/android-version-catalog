@@ -37,14 +37,14 @@ enableFeaturePreview("VERSION_CATALOGS")
 | x-lifecycle-livedata                      | androidx.lifecycle:lifecycle-livedata                     | 2.4.0     | 0.0.2 |  |
 | x-lifecycle-viewmodel                     | androidx.lifecycle:lifecycle-viewmodel                    | 2.4.0     | 0.0.2 |  |
 | x-activity                                | androidx.activity:activity                                | 1.4.0     | 0.0.2 |  |
-| x-fragment                                | androidx.fragment:fragment                                | 1.3.6     | 0.0.2 |  |
+| x-fragment                                | androidx.fragment:fragment                                | 1.4.0     | 0.0.9 |  |
 | x-constraintlayout                        | androidx.constraintlayout:constraintlayout                | 2.1.2     | 0.0.6 |  |
 | x-junit                                   | androidx.test.ext:junit                                   | 1.1.2     | 0.0.4 |  |
 | x-espresso-core                           | androidx.test.espresso:espresso-core                      | 3.3.0     | 0.0.4 |  |
 | junit                                     | junit:junit                                               | 4.13.2    | 0.0.4 |  |
 |                                           |                                                           |           |       |  |
 | daemon-annotation                         | io.github.daemon369:annotation                            | 0.1.0     | 0.0.2 | 注解库 |
-| daemon-infrastructure-application         | io.github.daemon369:android-infrastructure-application    | 0.1.1     | 0.0.2 | 基础库，提供Application全局实例 |
+| daemon-infrastructure-application         | io.github.daemon369:android-infrastructure-application    | 1.1.0     | 0.0.9 | 基础库，提供Application全局实例 |
 | daemon-infrastructure                     | io.github.daemon369:android-infrastructure                | 0.3.0     | 0.0.5 | 基础库，提供基础工具 |
 | daemon-logger-api                         | io.github.daemon369:logger-api                            | 0.3.0     | 0.0.8 | Logger API |
 | daemon-logger                             | io.github.daemon369:android-logger                        | 0.3.0     | 0.0.8 | Logger |
