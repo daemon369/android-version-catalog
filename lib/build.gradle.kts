@@ -49,7 +49,7 @@ catalog {
         alias("x-activity")
             .to("androidx.activity:activity:1.4.0")
         alias("x-fragment")
-            .to("androidx.fragment:fragment:1.3.6")
+            .to("androidx.fragment:fragment:1.4.0")
         alias("x-constraintlayout")
             .to("androidx.constraintlayout:constraintlayout:2.1.2")
 
