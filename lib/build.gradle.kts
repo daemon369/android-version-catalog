@@ -48,8 +48,12 @@ catalog {
             .versionRef("x-lifecycle")
         alias("x-activity")
             .to("androidx.activity:activity:1.4.0")
+        alias("x-activity-ktx")
+            .to("androidx.activity:activity-ktx:1.4.0")
         alias("x-fragment")
             .to("androidx.fragment:fragment:1.4.0")
+        alias("x-fragment-ktx")
+            .to("androidx.fragment:fragment-ktx:1.4.0")
         alias("x-constraintlayout")
             .to("androidx.constraintlayout:constraintlayout:2.1.2")
 
