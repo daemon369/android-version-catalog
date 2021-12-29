@@ -56,6 +56,8 @@ catalog {
             .to("androidx.fragment:fragment-ktx:1.4.0")
         alias("x-constraintlayout")
             .to("androidx.constraintlayout:constraintlayout:2.1.2")
+        alias("x-recyclerview")
+            .to("androidx.recyclerview:recyclerview:1.2.1")
 
         alias("x-junit")
             .to("androidx.test.ext:junit:1.1.2")
