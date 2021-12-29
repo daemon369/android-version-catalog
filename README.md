@@ -15,40 +15,46 @@ enableFeaturePreview("VERSION_CATALOGS")
 
 | 版本号名称          | 当前版本号  | 发布版本 | 说明 |
 | --- | --- | --- | --- |
-| kotlin            | 1.6.10    | 0.0.8 | kotlin版本号 |
-| kotlin-coroutines | 1.6.0     | 0.0.8 | kotlin协程版本号 |
-| x-lifecycle       | 2.4.0     | 0.0.3 | androidX lifecycle版本号 |
+| kotlin            | 1.6.10    | 0.0.8     | kotlin版本号 |
+| kotlin-coroutines | 1.6.0     | 0.0.8     | kotlin协程版本号 |
+| x-lifecycle       | 2.4.0     | 0.0.3     | androidX lifecycle版本号 |
+| x-room            | 2.4.0     | 0.0.10    | androidX room版本号 |
 | | | | |
 
 ## 库
 
 | 库别名                                     | 具体库                                                     | 库版本号    | 发布版本 | 说明 |
-| ---                                       | ---                                                       | ---       | ---   | --- |
-| gradle                                    | com.android.tools.build:gradle                            | 7.0.4     | 0.0.8 | android gradle插件库 |
-| kotlin                                    | org.jetbrains.kotlin:kotlin-stdlib                        | 1.6.10    | 0.0.8 | kotlin标准库 |
-| kotlin-coroutines-core                    | org.jetbrains.kotlinx:kotlinx-coroutines-core-jvm         | 1.6.0     | 0.0.8 | kotlin协程库 |
-| kotlin-coroutines-android                 | org.jetbrains.kotlinx:kotlinx-coroutines-android          | 1.6.0     | 0.0.8 | kotlin协程库 |
-| kotlin-plugin                             | org.jetbrains.kotlin:kotlin-gradle-plugin                 | 1.6.10    | 0.0.8 | kotlin插件库 |
-| x-annotation                              | androidx.annotation:annotation                            | 1.3.0     | 0.0.2 | AndroidX注解库 |
-| x-core                                    | androidx.core:core                                        | 1.7.0     | 0.0.5 |  |
-| x-core-ktx                                | androidx.core:core-ktx                                    | 1.7.0     | 0.0.2 |  |
-| x-appcompat                               | androidx.appcompat:appcompat                              | 1.4.0     | 0.0.6 |  |
-| x-lifecycle-common                        | androidx.lifecycle:lifecycle-common                       | 2.4.0     | 0.0.2 |  |
-| x-lifecycle-livedata                      | androidx.lifecycle:lifecycle-livedata                     | 2.4.0     | 0.0.2 |  |
-| x-lifecycle-viewmodel                     | androidx.lifecycle:lifecycle-viewmodel                    | 2.4.0     | 0.0.2 |  |
-| x-activity                                | androidx.activity:activity                                | 1.4.0     | 0.0.2 |  |
-| x-fragment                                | androidx.fragment:fragment                                | 1.4.0     | 0.0.9 |  |
-| x-constraintlayout                        | androidx.constraintlayout:constraintlayout                | 2.1.2     | 0.0.6 |  |
-| x-junit                                   | androidx.test.ext:junit                                   | 1.1.2     | 0.0.4 |  |
-| x-espresso-core                           | androidx.test.espresso:espresso-core                      | 3.3.0     | 0.0.4 |  |
-| junit                                     | junit:junit                                               | 4.13.2    | 0.0.4 |  |
-|                                           |                                                           |           |       |  |
-| daemon-annotation                         | io.github.daemon369:annotation                            | 0.1.0     | 0.0.2 | 注解库 |
-| daemon-infrastructure-application         | io.github.daemon369:android-infrastructure-application    | 1.1.0     | 0.0.9 | 基础库，提供Application全局实例 |
-| daemon-infrastructure                     | io.github.daemon369:android-infrastructure                | 0.3.0     | 0.0.5 | 基础库，提供基础工具 |
-| daemon-logger-api                         | io.github.daemon369:logger-api                            | 0.3.0     | 0.0.8 | Logger API |
-| daemon-logger                             | io.github.daemon369:android-logger                        | 0.3.0     | 0.0.8 | Logger |
-| daemon-view                               | io.github.daemon369:android-view-common                   | 0.3.0     | 0.0.2 | 基础UI库 |
+| ---                                       | ---                                                       | ---       | ---       | --- |
+| gradle                                    | com.android.tools.build:gradle                            | 7.0.4     | 0.0.8     | android gradle插件库 |
+| kotlin                                    | org.jetbrains.kotlin:kotlin-stdlib                        | 1.6.10    | 0.0.8     | kotlin标准库 |
+| kotlin-coroutines-core                    | org.jetbrains.kotlinx:kotlinx-coroutines-core-jvm         | 1.6.0     | 0.0.8     | kotlin协程库 |
+| kotlin-coroutines-android                 | org.jetbrains.kotlinx:kotlinx-coroutines-android          | 1.6.0     | 0.0.8     | kotlin协程库 |
+| kotlin-plugin                             | org.jetbrains.kotlin:kotlin-gradle-plugin                 | 1.6.10    | 0.0.8     | kotlin插件库 |
+| x-annotation                              | androidx.annotation:annotation                            | 1.3.0     | 0.0.2     | AndroidX注解库 |
+| x-core                                    | androidx.core:core                                        | 1.7.0     | 0.0.5     |  |
+| x-core-ktx                                | androidx.core:core-ktx                                    | 1.7.0     | 0.0.2     |  |
+| x-appcompat                               | androidx.appcompat:appcompat                              | 1.4.0     | 0.0.6     |  |
+| x-lifecycle-common                        | androidx.lifecycle:lifecycle-common                       | 2.4.0     | 0.0.2     |  |
+| x-lifecycle-livedata                      | androidx.lifecycle:lifecycle-livedata                     | 2.4.0     | 0.0.2     |  |
+| x-lifecycle-viewmodel                     | androidx.lifecycle:lifecycle-viewmodel                    | 2.4.0     | 0.0.2     |  |
+| x-activity                                | androidx.activity:activity                                | 1.4.0     | 0.0.2     |  |
+| x-activity-ktx                            | androidx.activity:activity-ktx                            | 1.4.0     | 0.0.10    |  |
+| x-fragment                                | androidx.fragment:fragment                                | 1.4.0     | 0.0.9     |  |
+| x-fragment-ktx                            | androidx.fragment:fragment-ktx                            | 1.4.0     | 0.0.10    |  |
+| x-room-runtime                            | androidx.room:room-runtime                                | 2.4.0     | 0.0.10    |  |
+| x-room-compiler                           | androidx.room:room-compiler                               | 2.4.0     | 0.0.10    |  |
+| x-constraintlayout                        | androidx.constraintlayout:constraintlayout                | 2.1.2     | 0.0.6     |  |
+| x-recyclerview                            | androidx.recyclerview:recyclerview                        | 1.2.1     | 0.0.10    |  |
+| x-junit                                   | androidx.test.ext:junit                                   | 1.1.2     | 0.0.4     |  |
+| x-espresso-core                           | androidx.test.espresso:espresso-core                      | 3.3.0     | 0.0.4     |  |
+| junit                                     | junit:junit                                               | 4.13.2    | 0.0.4     |  |
+|                                           |                                                           |           |           |  |
+| daemon-annotation                         | io.github.daemon369:annotation                            | 0.1.0     | 0.0.2     | 注解库 |
+| daemon-infrastructure-application         | io.github.daemon369:android-infrastructure-application    | 1.1.0     | 0.0.9     | 基础库，提供Application全局实例 |
+| daemon-infrastructure                     | io.github.daemon369:android-infrastructure                | 0.3.0     | 0.0.5     | 基础库，提供基础工具 |
+| daemon-logger-api                         | io.github.daemon369:logger-api                            | 0.3.0     | 0.0.8     | Logger API |
+| daemon-logger                             | io.github.daemon369:android-logger                        | 0.3.0     | 0.0.8     | Logger |
+| daemon-view                               | io.github.daemon369:android-view-common                   | 0.3.0     | 0.0.2     | 基础UI库 |
 | | | | | |
 
 ## 插件

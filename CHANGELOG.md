@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.0.10] - 2021-12-29
+
+### Added
+
+- 增加版本号`x-room`
+- 增加库`x-activity-ktx`、`x-fragment-ktx`、`x-room-runtime`、`x-room-compiler`、`x-recyclerview`
+
 ## [0.0.9] - 2021-12-29
 
 ### Changed
