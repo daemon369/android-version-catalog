@@ -36,7 +36,9 @@ enableFeaturePreview("VERSION_CATALOGS")
 | x-appcompat                               | androidx.appcompat:appcompat                              | 1.4.0     | 0.0.6     |  |
 | x-lifecycle-common                        | androidx.lifecycle:lifecycle-common                       | 2.4.0     | 0.0.2     |  |
 | x-lifecycle-livedata                      | androidx.lifecycle:lifecycle-livedata                     | 2.4.0     | 0.0.2     |  |
+| x-lifecycle-livedata-ktx                  | androidx.lifecycle:lifecycle-livedata-ktx                 | 2.4.0     | 0.0.11    |  |
 | x-lifecycle-viewmodel                     | androidx.lifecycle:lifecycle-viewmodel                    | 2.4.0     | 0.0.2     |  |
+| x-lifecycle-viewmodel-ktx                 | androidx.lifecycle:lifecycle-viewmodel-ktx                | 2.4.0     | 0.0.11    |  |
 | x-activity                                | androidx.activity:activity                                | 1.4.0     | 0.0.2     |  |
 | x-activity-ktx                            | androidx.activity:activity-ktx                            | 1.4.0     | 0.0.10    |  |
 | x-fragment                                | androidx.fragment:fragment                                | 1.4.0     | 0.0.9     |  |

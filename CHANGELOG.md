@@ -1,5 +1,11 @@
 # Changelog
 
+## [0.0.11] - 2022-01-05
+
+### Added
+
+- 增加库`x-lifecycle-livedata-ktx`、`x-lifecycle-viewmodel-ktx`
+
 ## [0.0.10] - 2021-12-29
 
 ### Added
