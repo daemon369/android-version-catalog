@@ -9,7 +9,7 @@ catalog {
         version("kotlin", "1.6.10")
         version("kotlin-coroutines", "1.6.0")
         version("x-lifecycle", "2.4.0")
-        version("x-room", "2.4.0")
+        version("x-room", "2.4.1")
 
         // gradle
         alias("gradle")
@@ -37,7 +37,7 @@ catalog {
         alias("x-core-ktx")
             .to("androidx.core:core-ktx:1.7.0")
         alias("x-appcompat")
-            .to("androidx.appcompat:appcompat:1.4.0")
+            .to("androidx.appcompat:appcompat:1.4.1")
         alias("x-lifecycle-common")
             .to("androidx.lifecycle", "lifecycle-common")
             .versionRef("x-lifecycle")
