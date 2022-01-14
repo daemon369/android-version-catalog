@@ -18,7 +18,7 @@ enableFeaturePreview("VERSION_CATALOGS")
 | kotlin            | 1.6.10    | 0.0.8     | kotlin版本号 |
 | kotlin-coroutines | 1.6.0     | 0.0.8     | kotlin协程版本号 |
 | x-lifecycle       | 2.4.0     | 0.0.3     | androidX lifecycle版本号 |
-| x-room            | 2.4.0     | 0.0.10    | androidX room版本号 |
+| x-room            | 2.4.1     | 0.0.12    | androidX room版本号 |
 | | | | |
 
 ## 库
@@ -33,7 +33,7 @@ enableFeaturePreview("VERSION_CATALOGS")
 | x-annotation                              | androidx.annotation:annotation                            | 1.3.0     | 0.0.2     | AndroidX注解库 |
 | x-core                                    | androidx.core:core                                        | 1.7.0     | 0.0.5     |  |
 | x-core-ktx                                | androidx.core:core-ktx                                    | 1.7.0     | 0.0.2     |  |
-| x-appcompat                               | androidx.appcompat:appcompat                              | 1.4.0     | 0.0.6     |  |
+| x-appcompat                               | androidx.appcompat:appcompat                              | 1.4.1     | 0.0.12    |  |
 | x-lifecycle-common                        | androidx.lifecycle:lifecycle-common                       | 2.4.0     | 0.0.2     |  |
 | x-lifecycle-livedata                      | androidx.lifecycle:lifecycle-livedata                     | 2.4.0     | 0.0.2     |  |
 | x-lifecycle-livedata-ktx                  | androidx.lifecycle:lifecycle-livedata-ktx                 | 2.4.0     | 0.0.11    |  |
