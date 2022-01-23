@@ -68,7 +68,7 @@ catalog {
             .to("androidx.room", "room-compiler")
             .versionRef("x-room")
         alias("x-constraintlayout")
-            .to("androidx.constraintlayout:constraintlayout:2.1.2")
+            .to("androidx.constraintlayout:constraintlayout:2.1.3")
         alias("x-recyclerview")
             .to("androidx.recyclerview:recyclerview:1.2.1")
 
