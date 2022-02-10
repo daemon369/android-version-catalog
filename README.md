@@ -41,8 +41,8 @@ enableFeaturePreview("VERSION_CATALOGS")
 | x-lifecycle-viewmodel-ktx                 | androidx.lifecycle:lifecycle-viewmodel-ktx                | 2.4.0     | 0.0.11    |  |
 | x-activity                                | androidx.activity:activity                                | 1.4.0     | 0.0.2     |  |
 | x-activity-ktx                            | androidx.activity:activity-ktx                            | 1.4.0     | 0.0.10    |  |
-| x-fragment                                | androidx.fragment:fragment                                | 1.4.0     | 0.0.9     |  |
-| x-fragment-ktx                            | androidx.fragment:fragment-ktx                            | 1.4.0     | 0.0.10    |  |
+| x-fragment                                | androidx.fragment:fragment                                | 1.4.1     | 1.0.0     |  |
+| x-fragment-ktx                            | androidx.fragment:fragment-ktx                            | 1.4.1     | 1.0.0    |  |
 | x-room-runtime                            | androidx.room:room-runtime                                | 2.4.0     | 0.0.10    |  |
 | x-room-compiler                           | androidx.room:room-compiler                               | 2.4.0     | 0.0.10    |  |
 | x-constraintlayout                        | androidx.constraintlayout:constraintlayout                | 2.1.2     | 0.0.6     |  |

@@ -91,11 +91,11 @@ catalog {
         )
         library(
             "x-fragment",
-            "androidx.fragment:fragment:1.4.0"
+            "androidx.fragment:fragment:1.4.1"
         )
         library(
             "x-fragment-ktx",
-            "androidx.fragment:fragment-ktx:1.4.0"
+            "androidx.fragment:fragment-ktx:1.4.1"
         )
         library(
             "x-room-runtime",
