@@ -2,8 +2,6 @@ rootProject.name = "android-version-catalog"
 include(":demo")
 include(":lib")
 
-enableFeaturePreview("VERSION_CATALOGS")
-
 dependencyResolutionManagement {
     repositories {
 //        mavenLocal()
