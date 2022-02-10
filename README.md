@@ -25,7 +25,7 @@ enableFeaturePreview("VERSION_CATALOGS")
 
 | 库别名                                     | 具体库                                                     | 库版本号    | 发布版本 | 说明 |
 | ---                                       | ---                                                       | ---       | ---       | --- |
-| gradle                                    | com.android.tools.build:gradle                            | 7.0.4     | 0.0.8     | android gradle插件库 |
+| gradle                                    | com.android.tools.build:gradle                            | 7.1.1     | 1.0.0     | android gradle插件库 |
 | kotlin                                    | org.jetbrains.kotlin:kotlin-stdlib                        | 1.6.10    | 0.0.8     | kotlin标准库 |
 | kotlin-coroutines-core                    | org.jetbrains.kotlinx:kotlinx-coroutines-core-jvm         | 1.6.0     | 0.0.8     | kotlin协程库 |
 | kotlin-coroutines-android                 | org.jetbrains.kotlinx:kotlinx-coroutines-android          | 1.6.0     | 0.0.8     | kotlin协程库 |
