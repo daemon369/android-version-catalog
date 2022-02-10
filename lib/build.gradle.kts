@@ -8,7 +8,7 @@ catalog {
     versionCatalog {
         version("kotlin", "1.6.10")
         version("kotlin-coroutines", "1.6.0")
-        version("x-lifecycle", "2.4.0")
+        version("x-lifecycle", "2.4.1")
         version("x-room", "2.4.1")
 
         // gradle

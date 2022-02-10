@@ -17,7 +17,7 @@ enableFeaturePreview("VERSION_CATALOGS")
 | --- | --- | --- | --- |
 | kotlin            | 1.6.10    | 0.0.8     | kotlin版本号 |
 | kotlin-coroutines | 1.6.0     | 0.0.8     | kotlin协程版本号 |
-| x-lifecycle       | 2.4.0     | 0.0.3     | androidX lifecycle版本号 |
+| x-lifecycle       | 2.4.1     | 1.0.0     | androidX lifecycle版本号 |
 | x-room            | 2.4.1     | 0.0.12    | androidX room版本号 |
 | | | | |
 
