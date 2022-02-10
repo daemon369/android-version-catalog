@@ -7,6 +7,7 @@
 - 升级版本号`x-lifecycle`到`2.4.1`
 - 升级库`gradle`到`7.1.1`
 - 升级库`x-fragment`与`x-fragment-ktx`到`1.4.1`
+- 升级库`x-constraintlayout`到`2.1.3`
 
 ## [0.0.12] - 2022-01-14
 

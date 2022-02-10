@@ -45,7 +45,7 @@ enableFeaturePreview("VERSION_CATALOGS")
 | x-fragment-ktx                            | androidx.fragment:fragment-ktx                            | 1.4.1     | 1.0.0    |  |
 | x-room-runtime                            | androidx.room:room-runtime                                | 2.4.0     | 0.0.10    |  |
 | x-room-compiler                           | androidx.room:room-compiler                               | 2.4.0     | 0.0.10    |  |
-| x-constraintlayout                        | androidx.constraintlayout:constraintlayout                | 2.1.2     | 0.0.6     |  |
+| x-constraintlayout                        | androidx.constraintlayout:constraintlayout                | 2.1.3     | 1.0.0     |  |
 | x-recyclerview                            | androidx.recyclerview:recyclerview                        | 1.2.1     | 0.0.10    |  |
 | x-junit                                   | androidx.test.ext:junit                                   | 1.1.2     | 0.0.4     |  |
 | x-espresso-core                           | androidx.test.espresso:espresso-core                      | 3.3.0     | 0.0.4     |  |
