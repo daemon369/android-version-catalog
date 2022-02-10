@@ -38,6 +38,7 @@ dependencies {
 //    implementation("org.jetbrains.kotlin:kotlin-stdlib:1.5.31")
     implementation(libs.kotlin)
     implementation(libs.x.appcompat)
+    implementation(libs.x.fragment.ktx)
     implementation(libs.x.constraintlayout)
     testImplementation(libs.junit)
     androidTestImplementation(libs.x.junit)
