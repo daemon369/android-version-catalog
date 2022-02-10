@@ -12,88 +12,150 @@ catalog {
         version("x-room", "2.4.1")
 
         // gradle
-        alias("gradle")
-            .to("com.android.tools.build:gradle:7.1.1")
+        library(
+            "gradle",
+            "com.android.tools.build:gradle:7.1.1"
+        )
 
         // kotlin
-        alias("kotlin")
-            .to("org.jetbrains.kotlin", "kotlin-stdlib")
-            .versionRef("kotlin")
-        alias("kotlin-plugin")
-            .to("org.jetbrains.kotlin", "kotlin-gradle-plugin")
-            .versionRef("kotlin")
-        alias("kotlin-coroutines-core")
-            .to("org.jetbrains.kotlinx", "kotlinx-coroutines-core-jvm")
-            .versionRef("kotlin-coroutines")
-        alias("kotlin-coroutines-android")
-            .to("org.jetbrains.kotlinx", "kotlinx-coroutines-android")
-            .versionRef("kotlin-coroutines")
+        library(
+            "kotlin",
+            "org.jetbrains.kotlin",
+            "kotlin-stdlib"
+        ).versionRef("kotlin")
+        library(
+            "kotlin-plugin",
+            "org.jetbrains.kotlin",
+            "kotlin-gradle-plugin"
+        ).versionRef("kotlin")
+        library(
+            "kotlin-coroutines-core",
+            "org.jetbrains.kotlinx",
+            "kotlinx-coroutines-core-jvm"
+        ).versionRef("kotlin-coroutines")
+        library(
+            "kotlin-coroutines-android",
+            "org.jetbrains.kotlinx",
+            "kotlinx-coroutines-android"
+        ).versionRef("kotlin-coroutines")
 
         // androidX
-        alias("x-annotation")
-            .to("androidx.annotation:annotation:1.3.0")
-        alias("x-core")
-            .to("androidx.core:core:1.7.0")
-        alias("x-core-ktx")
-            .to("androidx.core:core-ktx:1.7.0")
-        alias("x-appcompat")
-            .to("androidx.appcompat:appcompat:1.4.1")
-        alias("x-lifecycle-common")
-            .to("androidx.lifecycle", "lifecycle-common")
-            .versionRef("x-lifecycle")
-        alias("x-lifecycle-livedata")
-            .to("androidx.lifecycle", "lifecycle-livedata")
-            .versionRef("x-lifecycle")
-        alias("x-lifecycle-livedata-ktx")
-            .to("androidx.lifecycle", "lifecycle-livedata-ktx")
-            .versionRef("x-lifecycle")
-        alias("x-lifecycle-viewmodel")
-            .to("androidx.lifecycle", "lifecycle-viewmodel")
-            .versionRef("x-lifecycle")
-        alias("x-lifecycle-viewmodel-ktx")
-            .to("androidx.lifecycle", "lifecycle-viewmodel-ktx")
-            .versionRef("x-lifecycle")
-        alias("x-activity")
-            .to("androidx.activity:activity:1.4.0")
-        alias("x-activity-ktx")
-            .to("androidx.activity:activity-ktx:1.4.0")
-        alias("x-fragment")
-            .to("androidx.fragment:fragment:1.4.0")
-        alias("x-fragment-ktx")
-            .to("androidx.fragment:fragment-ktx:1.4.0")
-        alias("x-room-runtime")
-            .to("androidx.room", "room-runtime")
-            .versionRef("x-room")
-        alias("x-room-compiler")
-            .to("androidx.room", "room-compiler")
-            .versionRef("x-room")
-        alias("x-constraintlayout")
-            .to("androidx.constraintlayout:constraintlayout:2.1.3")
-        alias("x-recyclerview")
-            .to("androidx.recyclerview:recyclerview:1.2.1")
+        library(
+            "x-annotation",
+            "androidx.annotation:annotation:1.3.0"
+        )
+        library(
+            "x-core",
+            "androidx.core:core:1.7.0"
+        )
+        library(
+            "x-core-ktx",
+            "androidx.core:core-ktx:1.7.0"
+        )
+        library(
+            "x-appcompat",
+            "androidx.appcompat:appcompat:1.4.1"
+        )
+        library(
+            "x-lifecycle-common",
+            "androidx.lifecycle",
+            "lifecycle-common"
+        ).versionRef("x-lifecycle")
+        library(
+            "x-lifecycle-livedata",
+            "androidx.lifecycle",
+            "lifecycle-livedata"
+        ).versionRef("x-lifecycle")
+        library(
+            "x-lifecycle-livedata-ktx",
+            "androidx.lifecycle",
+            "lifecycle-livedata-ktx"
+        ).versionRef("x-lifecycle")
+        library(
+            "x-lifecycle-viewmodel",
+            "androidx.lifecycle",
+            "lifecycle-viewmodel"
+        ).versionRef("x-lifecycle")
+        library(
+            "x-lifecycle-viewmodel-ktx",
+            "androidx.lifecycle",
+            "lifecycle-viewmodel-ktx"
+        ).versionRef("x-lifecycle")
+        library(
+            "x-activity",
+            "androidx.activity:activity:1.4.0"
+        )
+        library(
+            "x-activity-ktx",
+            "androidx.activity:activity-ktx:1.4.0"
+        )
+        library(
+            "x-fragment",
+            "androidx.fragment:fragment:1.4.0"
+        )
+        library(
+            "x-fragment-ktx",
+            "androidx.fragment:fragment-ktx:1.4.0"
+        )
+        library(
+            "x-room-runtime",
+            "androidx.room",
+            "room-runtime"
+        ).versionRef("x-room")
+        library(
+            "x-room-compiler",
+            "androidx.room",
+            "room-compiler"
+        ).versionRef("x-room")
+        library(
+            "x-constraintlayout",
+            "androidx.constraintlayout:constraintlayout:2.1.3"
+        )
+        library(
+            "x-recyclerview",
+            "androidx.recyclerview:recyclerview:1.2.1"
+        )
 
-        alias("x-junit")
-            .to("androidx.test.ext:junit:1.1.2")
-        alias("x-espresso-core")
-            .to("androidx.test.espresso:espresso-core:3.3.0")
+        library(
+            "x-junit",
+            "androidx.test.ext:junit:1.1.2"
+        )
+        library(
+            "x-espresso-core",
+            "androidx.test.espresso:espresso-core:3.3.0"
+        )
 
         // test
-        alias("junit")
-            .to("junit:junit:4.13.2")
+        library(
+            "junit",
+            "junit:junit:4.13.2"
+        )
 
         // daemon libraries
-        alias("daemon-annotation")
-            .to("io.github.daemon369:annotation:0.1.0")
-        alias("daemon-infrastructure-application")
-            .to("io.github.daemon369:android-infrastructure-application:1.1.0")
-        alias("daemon-infrastructure")
-            .to("io.github.daemon369:android-infrastructure:0.3.0")
-        alias("daemon-view")
-            .to("io.github.daemon369:android-view-common:0.3.0")
-        alias("daemon-logger-api")
-            .to("io.github.daemon369:logger-api:0.0.2")
-        alias("daemon-logger")
-            .to("io.github.daemon369:android-logger:0.0.2")
+        library(
+            "daemon-annotation",
+            "io.github.daemon369:annotation:0.1.0"
+        )
+        library(
+            "daemon-infrastructure-application",
+            "io.github.daemon369:android-infrastructure-application:1.1.0"
+        )
+        library(
+            "daemon-infrastructure",
+            "io.github.daemon369:android-infrastructure:0.3.0"
+        )
+        library(
+            "daemon-view",
+            "io.github.daemon369:android-view-common:0.3.0"
+        )
+        library(
+            "daemon-logger-api",
+            "io.github.daemon369:logger-api:0.0.2"
+        )
+        library(
+            "daemon-logger",
+            "io.github.daemon369:android-logger:0.0.2"
+        )
     }
 }
 
