@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.0.0] - 2022-02-10
+
+### Changed
+
+- 升级版本号`x-lifecycle`到`2.4.1`
+- 升级库`gradle`到`7.1.1`
+- 升级库`x-fragment`与`x-fragment-ktx`到`1.4.1`
+
 ## [0.0.12] - 2022-01-14
 
 ### Changed
