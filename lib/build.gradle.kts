@@ -14,7 +14,7 @@ catalog {
         // gradle
         library(
             "gradle",
-            "com.android.tools.build:gradle:7.1.1"
+            "com.android.tools.build:gradle:7.1.2"
         )
 
         // kotlin
