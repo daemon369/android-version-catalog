@@ -11,6 +11,8 @@ enableFeaturePreview("VERSION_CATALOGS")
 
 `0.0.1`-`0.0.4`要求使用`gradle7.0`以上版本并同样开启特性预览
 
+`gradle7.4`开始`version catalogs`特性已经作为稳定特性，不需要再添加`enableFeaturePreview("VERSION_CATALOGS")`
+
 ## 版本号
 
 | 版本号名称          | 当前版本号  | 发布版本 | 说明 |
