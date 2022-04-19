@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.0.2] - 2022-04-19
+
+### Changed
+
+- 升级库`gradle`到`7.1.3`
+- 升级版本号`kotlin`到`1.6.20`
+- 升级版本号`kotlin-coroutines`到`1.6.1`
+
 ## [1.0.1] - 2022-03-03
 
 ### Changed
