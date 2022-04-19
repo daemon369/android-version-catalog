@@ -17,8 +17,8 @@ enableFeaturePreview("VERSION_CATALOGS")
 
 | 版本号名称          | 当前版本号  | 发布版本 | 说明 |
 | --- | --- | --- | --- |
-| kotlin            | 1.6.10    | 0.0.8     | kotlin版本号 |
-| kotlin-coroutines | 1.6.0     | 0.0.8     | kotlin协程版本号 |
+| kotlin            | 1.6.20    | 1.0.2     | kotlin版本号 |
+| kotlin-coroutines | 1.6.1     | 1.0.2     | kotlin协程版本号 |
 | x-lifecycle       | 2.4.1     | 1.0.0     | androidX lifecycle版本号 |
 | x-room            | 2.4.2     | 1.0.1    | androidX room版本号 |
 | | | | |
@@ -27,26 +27,26 @@ enableFeaturePreview("VERSION_CATALOGS")
 
 | 库别名                                     | 具体库                                                     | 库版本号    | 发布版本 | 说明 |
 | ---                                       | ---                                                       | ---       | ---       | --- |
-| gradle                                    | com.android.tools.build:gradle                            | 7.1.2     | 1.0.1     | android gradle插件库 |
-| kotlin                                    | org.jetbrains.kotlin:kotlin-stdlib                        | 1.6.10    | 0.0.8     | kotlin标准库 |
-| kotlin-coroutines-core                    | org.jetbrains.kotlinx:kotlinx-coroutines-core-jvm         | 1.6.0     | 0.0.8     | kotlin协程库 |
-| kotlin-coroutines-android                 | org.jetbrains.kotlinx:kotlinx-coroutines-android          | 1.6.0     | 0.0.8     | kotlin协程库 |
-| kotlin-plugin                             | org.jetbrains.kotlin:kotlin-gradle-plugin                 | 1.6.10    | 0.0.8     | kotlin插件库 |
+| gradle                                    | com.android.tools.build:gradle                            | 7.1.3     | 1.0.2     | android gradle插件库 |
+| kotlin                                    | org.jetbrains.kotlin:kotlin-stdlib                        | 1.6.20    | 1.0.2     | kotlin标准库 |
+| kotlin-coroutines-core                    | org.jetbrains.kotlinx:kotlinx-coroutines-core-jvm         | 1.6.1     | 1.0.2     | kotlin协程库 |
+| kotlin-coroutines-android                 | org.jetbrains.kotlinx:kotlinx-coroutines-android          | 1.6.1     | 1.0.2     | kotlin协程库 |
+| kotlin-plugin                             | org.jetbrains.kotlin:kotlin-gradle-plugin                 | 1.6.20    | 1.0.2     | kotlin插件库 |
 | x-annotation                              | androidx.annotation:annotation                            | 1.3.0     | 0.0.2     | AndroidX注解库 |
 | x-core                                    | androidx.core:core                                        | 1.7.0     | 0.0.5     |  |
 | x-core-ktx                                | androidx.core:core-ktx                                    | 1.7.0     | 0.0.2     |  |
 | x-appcompat                               | androidx.appcompat:appcompat                              | 1.4.1     | 0.0.12    |  |
 | x-lifecycle-common                        | androidx.lifecycle:lifecycle-common                       | 2.4.1     | 1.0.0     |  |
 | x-lifecycle-livedata                      | androidx.lifecycle:lifecycle-livedata                     | 2.4.1     | 1.0.0     |  |
-| x-lifecycle-livedata-ktx                  | androidx.lifecycle:lifecycle-livedata-ktx                 | 2.4.1     | 1.0.0    |  |
+| x-lifecycle-livedata-ktx                  | androidx.lifecycle:lifecycle-livedata-ktx                 | 2.4.1     | 1.0.0     |  |
 | x-lifecycle-viewmodel                     | androidx.lifecycle:lifecycle-viewmodel                    | 2.4.1     | 1.0.0     |  |
-| x-lifecycle-viewmodel-ktx                 | androidx.lifecycle:lifecycle-viewmodel-ktx                | 2.4.1     | 1.0.0    |  |
+| x-lifecycle-viewmodel-ktx                 | androidx.lifecycle:lifecycle-viewmodel-ktx                | 2.4.1     | 1.0.0     |  |
 | x-activity                                | androidx.activity:activity                                | 1.4.0     | 0.0.2     |  |
 | x-activity-ktx                            | androidx.activity:activity-ktx                            | 1.4.0     | 0.0.10    |  |
 | x-fragment                                | androidx.fragment:fragment                                | 1.4.1     | 1.0.0     |  |
-| x-fragment-ktx                            | androidx.fragment:fragment-ktx                            | 1.4.1     | 1.0.0    |  |
-| x-room-runtime                            | androidx.room:room-runtime                                | 2.4.2     | 1.0.1    |  |
-| x-room-compiler                           | androidx.room:room-compiler                               | 2.4.2     | 1.0.1    |  |
+| x-fragment-ktx                            | androidx.fragment:fragment-ktx                            | 1.4.1     | 1.0.0     |  |
+| x-room-runtime                            | androidx.room:room-runtime                                | 2.4.2     | 1.0.1     |  |
+| x-room-compiler                           | androidx.room:room-compiler                               | 2.4.2     | 1.0.1     |  |
 | x-constraintlayout                        | androidx.constraintlayout:constraintlayout                | 2.1.3     | 1.0.0     |  |
 | x-recyclerview                            | androidx.recyclerview:recyclerview                        | 1.2.1     | 0.0.10    |  |
 | x-junit                                   | androidx.test.ext:junit                                   | 1.1.2     | 0.0.4     |  |

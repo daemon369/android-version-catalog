@@ -6,15 +6,15 @@ plugins {
 
 catalog {
     versionCatalog {
-        version("kotlin", "1.6.10")
-        version("kotlin-coroutines", "1.6.0")
+        version("kotlin", "1.6.20")
+        version("kotlin-coroutines", "1.6.1")
         version("x-lifecycle", "2.4.1")
         version("x-room", "2.4.2")
 
         // gradle
         library(
             "gradle",
-            "com.android.tools.build:gradle:7.1.2"
+            "com.android.tools.build:gradle:7.1.3"
         )
 
         // kotlin
