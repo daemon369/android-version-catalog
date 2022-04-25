@@ -150,11 +150,11 @@ catalog {
         )
         library(
             "daemon-logger-api",
-            "io.github.daemon369:logger-api:0.0.2"
+            "io.github.daemon369:logger-api:1.1.0"
         )
         library(
             "daemon-logger",
-            "io.github.daemon369:android-logger:0.0.2"
+            "io.github.daemon369:android-logger:1.1.0"
         )
     }
 }
