@@ -1,5 +1,11 @@
 # Changelog
 
+## [1.2.0] - 2022-04-27
+
+## Changed
+
+- 升级`daemon-logger-api`与`daemon-logger`到`1.2.0`
+
 ## [1.1.0] - 2022-04-25
 
 ## Changed
