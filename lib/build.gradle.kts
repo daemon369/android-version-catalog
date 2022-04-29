@@ -62,6 +62,16 @@ catalog {
             "lifecycle-common"
         ).versionRef("x-lifecycle")
         library(
+            "x-lifecycle-runtime",
+            "androidx.lifecycle",
+            "lifecycle-runtime"
+        ).versionRef("x-lifecycle")
+        library(
+            "x-lifecycle-runtime-ktx",
+            "androidx.lifecycle",
+            "lifecycle-runtime-ktx"
+        ).versionRef("x-lifecycle")
+        library(
             "x-lifecycle-livedata",
             "androidx.lifecycle",
             "lifecycle-livedata"
