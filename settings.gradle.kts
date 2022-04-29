@@ -20,7 +20,7 @@ dependencyResolutionManagement {
     }
     versionCatalogs {
         create("libs") {
-            from("io.github.daemon369:android-version-catalog:1.0.2")
+            from("io.github.daemon369:android-version-catalog:1.2.0")
         }
 //        create("libs2") {
 //            from(files("gradle/libs.versions.toml"))
