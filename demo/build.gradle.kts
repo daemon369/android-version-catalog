@@ -38,9 +38,19 @@ dependencies {
 //    implementation("org.jetbrains.kotlin:kotlin-stdlib:1.5.31")
     implementation(libs.kotlin)
     implementation(libs.x.appcompat)
-    implementation(libs.x.fragment)
+    implementation(libs.x.lifecycle.common)
+    implementation(libs.x.lifecycle.viewmodel)
+    implementation(libs.x.lifecycle.livedata)
+    implementation(libs.x.fragment) {
+        exclude(group = "androidx.lifecycle")
+    }
     implementation(libs.x.constraintlayout)
     testImplementation(libs.junit)
-    androidTestImplementation(libs.x.junit)
-    androidTestImplementation(libs.x.espresso.core)
+    androidTestImplementation(libs.x.junit) {
+        exclude(group = "junit", module = "junit")
+    }
+    androidTestImplementation(libs.x.espresso.core) {
+        exclude(group = "junit", module = "junit")
+    }
+    implementation("androidx.lifecycle:lifecycle-runtime-ktx:2.4.1")
 }
